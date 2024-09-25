@@ -11,7 +11,7 @@ import Layout from "../components/layout";
 const IndexPage = () => {
   return (
       <Layout>
-        <Seo  description="Hi, I'm Batuhan."></Seo>
+        <Seo  description="Hi, I'm Batuhan. I live in a big city somewhere in the world."></Seo>
         <SnippetCard />
         <JourneyCard />
         <SkillsCard />

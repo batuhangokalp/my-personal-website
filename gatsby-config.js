@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Batuhan Gokalp`,
-    siteUrl: `https://batuhangokalp.com`,
+    siteUrl: `https://gokalp.netlify.app`,
     author: `@batuhangokalp`,
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sitemap",
@@ -14,7 +14,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "images",
-        "path": "./src/images/"
+        "path": "./src/images/",
+        ignore: [`**/icons`],
     },
 
     __key: "images"
@@ -22,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Batuhan Gokalp - Software Developer`,
+        short_name: `Batuhan Gokalp`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

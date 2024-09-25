@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-  color: #555;
+  color: #b85c5c;
   outline-width: 0;
 }
 
@@ -523,11 +523,11 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 
 ::selection {
   color: unset;
-  background-color: #8b8989; /* WebKit/Blink Browsers */
+  background-color: #8b4242; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
   color: unset;
-  background-color: #8b8989; /* Gecko Browsers */
+  background-color: #8b4242; /* Gecko Browsers */
 }
 
 :root{
@@ -593,3 +593,28 @@ sun_moon_change {
   padding: 0;
   margin:0;
 }
+
+.loading-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #181a1b;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.loader {
+  /* border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%; */
+  width: 50px;
+  height: 50px;
+  background: url('../images/loading.gif') center no-repeat;
+  background-size: cover;
+}
+
