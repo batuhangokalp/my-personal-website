@@ -24,7 +24,7 @@ const SkillsCard = () => {
 					I'm currently focused on<Tech style={{ borderBottom: '3px solid #0db7ed' }}>React Native</Tech>,<Tech style={{ borderBottom: '3px solid #ff9900' }}>React</Tech>and<Tech style={{ borderBottom: '3px solid rgb(0, 0, 128' }}>Next.js</Tech>.
 				</Techs>
 				<Techs>
-					I've knowledge on <Tech style={{ borderBottom: '3px solid #cf4f4f' }}>PostgreSQL</Tech>, <Tech style={{ borderBottom: '3px solid rgb(0, 128, 128' }}>Postman</Tech>, <Tech style={{ borderBottom: '3px solid rgb(128, 0, 0)' }}>Express.js</Tech> 
+					I've knowledge on <Tech style={{ borderBottom: '3px solid #cf4f4f' }}>PostgreSQL</Tech>, <Tech style={{ borderBottom: '3px solid rgb(0, 128, 128' }}>Postman</Tech>, <Tech style={{ borderBottom: '3px solid rgb(128, 0, 0)' }}>Express.js</Tech>, <Tech style={{ borderBottom: '3px solid #0db7ed' }}>Docker</Tech>.
 				</Techs>
 				<Techs>
 					He's my best friend now<Tech style={{ borderBottom: '3px solid #16a182' }}>ChatGPT</Tech>.
