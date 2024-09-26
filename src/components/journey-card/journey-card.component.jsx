@@ -97,7 +97,7 @@ const JourneyCard = () => {
 
         <Item>
           <CustomLink targetUrl="https://www.beymen.com/tr">
-            Beymen
+            Beymen Group
           </CustomLink>
         </Item>
 
