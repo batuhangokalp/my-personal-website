@@ -9,7 +9,7 @@ const Footer = () => {
         © {new Date().getFullYear() + " "}Batuhan Gokalp
         <br />
         <a href="mailto:bbatuhangokalp@gmail.com" className="mail-icon" target="_blank" rel="noopener noreferrer">
-          <AiOutlineMail /> &nbsp;
+          bbatuhangokalp@gmail.com <AiOutlineMail /> &nbsp;
         </a>
       </FooterDiv>
     </>

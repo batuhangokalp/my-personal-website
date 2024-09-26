@@ -79,7 +79,7 @@ const JourneyCard = () => {
       <ItemList style={{ marginTop: "30px" }}>
         <Item>
           <span className={classes.presentText}>
-            <CustomLink targetUrl="https://intertech.com.tr">
+            <CustomLink targetUrl="http://www.orcabs.com/">
               Orca Business Solutions
             </CustomLink>
           </span>
@@ -88,15 +88,12 @@ const JourneyCard = () => {
         <ItemContainer>
           <Dot />
           <Item>
-            <CustomLink targetUrl="https://verified.sertifier.com/en/verify/70778394413340">
-              Software Developer
-            </CustomLink>{" "}
-            <Date>(Feb 2023 – )</Date>
+            Software Developer <Date>(Feb 2023 – )</Date>
           </Item>
         </ItemContainer>
 
         <Item>
-          <CustomLink targetUrl="https://www.beymen.com/tr">
+          <CustomLink targetUrl="https://www.beymengroup.com/tr/">
             Beymen Group
           </CustomLink>
         </Item>
