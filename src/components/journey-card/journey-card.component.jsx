@@ -130,7 +130,7 @@ const JourneyCard = () => {
             <Edulist>
               <Item>
                 <CustomEmoji label="graduation" emoji="🎓" /> Graduated from{" "}
-                <BoldText>Trakya University</BoldText> / Computer Engineering. <Date>(July 2022)</Date>
+                <BoldText>Trakya University</BoldText> / Computer Engineering.
               </Item>
             </Edulist>
           </>
