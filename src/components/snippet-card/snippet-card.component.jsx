@@ -14,7 +14,7 @@ import CustomLink from './../custom-link/custom-link.component';
 import LinkedinLogo from '../../images/social/linkedin_light.png';
 import GithubLogo from '../../images/social/github_light.png';
 import TwitterLogo from '../../images/social/twitter_light.png';
-import PP from './../../images/pp.png';
+import PP from './../../images/pp.jpeg';
 import ReactRotatingText from 'react-rotating-text';
 
 const SnippetCard = () => {
