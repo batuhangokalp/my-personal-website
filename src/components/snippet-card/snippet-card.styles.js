@@ -54,9 +54,8 @@ export const SocialIcons = styled.div`
 
 export const ImageContainer = styled.div`
   width: 700px;
-  background-color: transparent;
   // Mobile
   @media (max-width: 768px) {
-    width: 400px;
+    width: 270%;
   }
 `;
