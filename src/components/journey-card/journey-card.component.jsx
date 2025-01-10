@@ -101,7 +101,7 @@ const JourneyCard = () => {
         <ItemContainer>
           <Item>
             <Dot />
-            Retail Systems Officer <Date>(July 2022 – Feb 2023)</Date>
+            System Support Assistant Specialist <Date>(July 2022 – Feb 2023)</Date>
           </Item>
         </ItemContainer>
 
