@@ -88,7 +88,7 @@ const JourneyCard = () => {
         <ItemContainer>
           <Dot />
           <Item>
-            Software Developer <Date>(Feb 2023 – )</Date>
+            Software Developer <Date>(Feb 2023 – Nov 2024 )</Date>
           </Item>
         </ItemContainer>
 
