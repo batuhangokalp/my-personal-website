@@ -22,7 +22,7 @@ const SnippetCard = () => {
     <MainContainer>
       <div>
         <Title>Hi, I'm Batuhan.<CustomLink></CustomLink></Title>
-        <Snippet>Software Developer at <a href="http://www.orcabs.com/" target="_blank" rel="noopener noreferrer">Orca BS</a></Snippet>
+        <Snippet>Full-Stack Developer</Snippet>
         <Description>
           I am a software developer with a strong interest in mobile and web technologies, particularly in modern frameworks like React, Next.js, and React Native. I am always open to improving myself and focusing on developing user-friendly and high-performance applications.<br />
           I <b><ReactRotatingText items={['love React Native.', 'love swimming.', 'enjoy working on solving errors.', 'love basketball.', 'enjoy working on troubleshooting issues.']} /></b>
