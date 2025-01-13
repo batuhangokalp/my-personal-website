@@ -88,7 +88,7 @@ const JourneyCard = () => {
         <ItemContainer>
           <Dot />
           <Item>
-            Software Developer <Date>(Feb 2023 – Nov 2024 )</Date>
+            Full Stack Developer <Date>(Feb 2023 – Nov 2024 )</Date>
           </Item>
         </ItemContainer>
 
@@ -112,7 +112,7 @@ const JourneyCard = () => {
         <ItemContainer>
           <Item>
             <Dot />
-            Software Developer Intern <Date>(March 2022 – July 2022)</Date>
+            Front-End Developer Intern <Date>(March 2022 – July 2022)</Date>
           </Item>
         </ItemContainer>
 
