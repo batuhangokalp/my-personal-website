@@ -13,6 +13,9 @@ import {
 import CustomEmoji from "./../custom-emoji/custom-emoji.component";
 import CustomLink from "../custom-link/custom-link.component";
 import useStyles from "./journey-card.styles";
+import beymen from "../../images/company/beymen.png";
+import rdc from "../../images/company/rdc.png";
+import orca from "../../images/company/orca.png";
 
 const SeeMoreLink = styled.div`
   display: inline-block;
@@ -78,6 +81,7 @@ const JourneyCard = () => {
       <SectionTitle>Experiences</SectionTitle>
       <ItemList style={{ marginTop: "30px" }}>
         <Item>
+          <Logo src={orca} alt="" />
           <span className={classes.presentText}>
             <CustomLink targetUrl="http://www.orcabs.com/">
               Orca Business Solutions
@@ -93,6 +97,7 @@ const JourneyCard = () => {
         </ItemContainer>
 
         <Item>
+          <Logo src={beymen} alt="" />
           <CustomLink targetUrl="https://www.beymengroup.com/tr/">
             Beymen Group
           </CustomLink>
@@ -101,11 +106,13 @@ const JourneyCard = () => {
         <ItemContainer>
           <Item>
             <Dot />
-            System Support Assistant Specialist <Date>(July 2022 – Feb 2023)</Date>
+            System Support Assistant Specialist
+            <Date>(July 2022 – Feb 2023)</Date>
           </Item>
         </ItemContainer>
 
         <Item>
+          <Logo src={rdc} alt="" />
           <CustomLink targetUrl="https://rdc.com.tr/">RDC Partner</CustomLink>
         </Item>
 

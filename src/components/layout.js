@@ -5,10 +5,8 @@ import MOON from './../images/moon.png';
 import SUN from './../images/sun.png';
 import LinkedinLightLogo from '../images/social/linkedin_light.png';
 import GithubLightLogo from '../images/social/github_light.png';
-import TwitterLightLogo from '../images/social/twitter_light.png';
 import LinkedinDarkLogo from '../images/social/linkedin_dark.png';
 import GithubDarkLogo from '../images/social/github_dark.png';
-import TwitterDarkLogo from '../images/social/twitter_dark.png';
 
 const Layout = ({ children }) => {
     const [theme, setTheme] = useState("dark");
@@ -35,11 +33,9 @@ const Layout = ({ children }) => {
         themeIcon.current.src = SUN;
 
         let linkedin = document.querySelector(".linkedin");
-        let twitter = document.querySelector(".twitter");
         let github = document.querySelector(".github");
 
         linkedin?.setAttribute("src", LinkedinLightLogo);
-        twitter?.setAttribute("src", TwitterLightLogo);
         github?.setAttribute("src", GithubLightLogo);
       }, [my_tags]);
 
@@ -83,11 +79,9 @@ const Layout = ({ children }) => {
         });
 
         let linkedin = document.querySelector(".linkedin");
-        let twitter = document.querySelector(".twitter");
         let github = document.querySelector(".github");
 
         linkedin?.setAttribute("src", LinkedinDarkLogo);
-        twitter?.setAttribute("src", TwitterDarkLogo);
         github?.setAttribute("src", GithubDarkLogo);
 
         themeContainer.current.classList.remove("shadow-dark");
