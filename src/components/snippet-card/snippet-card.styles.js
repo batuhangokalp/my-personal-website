@@ -7,6 +7,9 @@ export const MainContainer = styled.div`
 
 export const Title = styled.h1`
   font-size: 38px;
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
 `;
 
 export const Snippet = styled.h3`
@@ -15,7 +18,7 @@ export const Snippet = styled.h3`
   line-height: 1.5em;
   // Mobile
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 17px;
     width: 100%;
   }
 `;
@@ -24,15 +27,15 @@ export const Description = styled.div`
   padding-bottom: 26px;
   // Mobile
   @media (max-width: 768px) {
-    width: 180%;
+    width: 150%;
     margin-top: 50px;
     margin-bottom: 20px;
-    height: 9em;
   }
 `;
 
 export const SocialIconsContainer = styled.div`
   display: flex;
+  margin-top: 30px;
 `;
 
 export const SocialIcons = styled.div`
