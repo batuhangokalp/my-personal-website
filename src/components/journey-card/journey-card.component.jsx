@@ -16,6 +16,7 @@ import useStyles from "./journey-card.styles";
 import beymen from "../../images/company/beymen.png";
 import rdc from "../../images/company/rdc.png";
 import orca from "../../images/company/orca.png";
+import clinicwise from "../../images/company/clinic-wise.png";
 
 const SeeMoreLink = styled.div`
   display: inline-block;
@@ -80,6 +81,21 @@ const JourneyCard = () => {
     <>
       <SectionTitle>Experiences</SectionTitle>
       <ItemList style={{ marginTop: "30px" }}>
+         <Item>
+          <Logo src={clinicwise} alt="" />
+          <span className={classes.presentText}>
+            <CustomLink targetUrl="https://clinic-wise.com/">
+              Clinic Wise
+            </CustomLink>
+          </span>
+        </Item>
+
+        <ItemContainer>
+          <Dot />
+          <Item>
+            Front-End Developer <Date>(April 2025 – August 2025 )</Date>
+          </Item>
+        </ItemContainer>
         <Item>
           <Logo src={orca} alt="" />
           <span className={classes.presentText}>
